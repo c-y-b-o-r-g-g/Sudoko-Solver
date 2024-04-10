@@ -7,10 +7,10 @@ def solve_sudoku(grid):
                         grid[i][j] = num
 
                         # print the grid after placing a number
-                        print(f"Placed {num} at ({i}, {j})")
+                        # print(f"Placed {num} at ({i}, {j})")
                         # for row in grid:
                         #     print(row)
-                        print("\n-----------------\n")
+                        # print("\n-----------------\n")
                         # for row in grid:
                         #     print(row)
                         # print("\n-----------------\n")
@@ -75,9 +75,3 @@ if solve_sudoku(grid):
 else:
     print("No solution exists for the given Sudoku puzzle.")
 
-if solve_sudoku(grid):
-    print("Sudoku solved:")
-    for row in grid:
-        print(row)
-else:
-    print("No solution exists for the given Sudoku puzzle.")
